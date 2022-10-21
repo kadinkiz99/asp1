@@ -1,0 +1,39 @@
+﻿@*
+    @model  List<asp1.Models.Product>
+
+    <ul>
+        @foreach (var product in Model)
+        {
+            <li>@product.ProductName</li>
+        }
+
+
+
+
+    </ul>
+
+*@
+
+
+@*
+    // ViewBag ile veri taşıma işlemi
+        <ul>
+            @foreach (var product in ViewBag.prducts as List<asp1.Models.Product>)
+            {
+                <li>@product.ProductName</li>
+            }
+
+
+        </ul>
+
+
+*@
+<h1>ViewData</h1>
+<ul>
+    @foreach (var product in ViewData["products"] as List<asp1.Models.Product>)
+    {
+        <li>@product.ProductName</li>
+    }
+
+
+</ul>
