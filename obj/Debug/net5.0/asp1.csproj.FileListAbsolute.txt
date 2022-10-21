@@ -32,6 +32,5 @@ D:\ASP.NET\asp1\asp1\obj\Debug\net5.0\ref\asp1.dll
 D:\ASP.NET\asp1\asp1\obj\Debug\net5.0\asp1.pdb
 D:\ASP.NET\asp1\asp1\obj\Debug\net5.0\asp1.genruntimeconfig.cache
 D:\ASP.NET\asp1\asp1\obj\Debug\net5.0\asp1.csproj.CopyComplete
-D:\ASP.NET\asp1\asp1\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 D:\ASP.NET\asp1\asp1\obj\Debug\net5.0\Razor\Views\Product\GetProducts.cshtml.g.cs
 D:\ASP.NET\asp1\asp1\obj\Debug\net5.0\Razor\Views\Product\CreateProduct.cshtml.g.cs

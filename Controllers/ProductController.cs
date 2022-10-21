@@ -90,7 +90,9 @@ namespace asp1.Controllers
 		}
 		// post ile gelirse burayı tetikler 
 		[HttpPost] // post ile gelen requestler üzerinden tetiklenmesini istiyor 
-		public IActionResult CreateProduct(string txtProductName , string txtQuantity)
+				   //public IActionResult CreateProduct(string txtProductName , string txtQuantity)
+		public IActionResult CreateProduct(Product product)
+
 		{
 			// get yapılmasını sağlayacak olan fonsksiyon 
 
